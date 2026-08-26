@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Threadguy × Phantom</title>
+  <meta name="description" content="Threadguy × Phantom — Partnership Proposal." />
+
+  <link rel="icon" type="image/png" href="assets/favicon.png" />
+  <link rel="apple-touch-icon" href="assets/favicon.png" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Threadguy × Phantom" />
+  <meta property="og:description" content="Partnership Proposal." />
+  <meta property="og:image" content="assets/share.png" />
+  <meta property="og:image:width" content="2422" />
+  <meta property="og:image:height" content="1362" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Threadguy × Phantom" />
+  <meta name="twitter:description" content="Partnership Proposal." />
+  <meta name="twitter:image" content="assets/share.png" />
+
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/geist@1.3.1/dist/fonts/geist-sans/style.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+  <script>
+    try {
+      if (localStorage.getItem("phantom-brand-unlocked-v2") !== "1") {
+        document.documentElement.classList.add("is-locked");
+      }
+    } catch (e) {
+      document.documentElement.classList.add("is-locked");
+    }
+  </script>
+</head>
+<body class="is-booting">
+  <div class="gate" id="gate" role="dialog" aria-modal="true" aria-label="Password required">
+    <div class="gate__box">
+      <form class="gate__form" id="gate-form" autocomplete="off">
+        <label class="gate__label" for="gate-password">Password</label>
+        <div class="gate__field">
+          <input
+            class="gate__input"
+            id="gate-password"
+            name="password"
+            type="password"
+            autocomplete="current-password"
+            autocapitalize="off"
+            autocorrect="off"
+            spellcheck="false"
+            inputmode="text"
+            required
+          />
+        </div>
+        <p class="gate__error" id="gate-error" hidden>Incorrect password</p>
+        <button type="submit" class="gate__submit">Enter</button>
+      </form>
+    </div>
+  </div>
+
+  <main id="site">
+    <section class="landing" aria-label="Threadguy × Phantom">
+      <div class="landing__bg" aria-hidden="true"></div>
+
+      <div class="landing__logo-wrap">
+        <div class="hero-logo" id="hero-logo">
+          <img src="assets/logo.png" alt="Threadguy × Phantom" width="1024" height="200" />
+        </div>
+      </div>
+    </section>
+
+    <section class="slides" id="slides" aria-label="Partnership slides">
+      <button
+        type="button"
+        class="contents-toggle"
+        id="contents-toggle"
+        aria-label="Open contents"
+        aria-expanded="false"
+        aria-controls="contents-panel"
+      >
+        <span class="contents-toggle__icon" aria-hidden="true">
+          <span class="contents-toggle__bar contents-toggle__bar--a"></span>
+          <span class="contents-toggle__bar contents-toggle__bar--b"></span>
+        </span>
+      </button>
+
+      <aside
+        class="contents-panel"
+        id="contents-panel"
+        aria-hidden="true"
+        aria-label="Contents"
+      >
+        <div class="contents-panel__inner">
+          <div class="contents-panel__header">
+            <div class="contents-panel__brand">Threadguy × Phantom</div>
+            <div class="contents-panel__label">Slide</div>
+          </div>
+          <nav class="contents-panel__nav" id="contents-nav"></nav>
+        </div>
+      </aside>
+
+      <div class="contents-backdrop" id="contents-backdrop" hidden></div>
+
+      <figure class="slide" id="slide-01">
+        <figcaption class="slide__title">Partnership Proposal</figcaption>
+        <img class="slide__img" src="assets/slides/slide-01.jpg" alt="Threadguy × Phantom Partnership Proposal" width="2422" height="1362" loading="eager" decoding="async" />
+      </figure>
+
+      <figure class="slide" id="slide-02">
+        <figcaption class="slide__title">A message from Threadguy</figcaption>
+        <img class="slide__img" src="assets/slides/slide-02.jpg" alt="A message from Threadguy" width="2422" height="1372" loading="lazy" decoding="async" />
+      </figure>
+
+      <figure class="slide" id="slide-03">
+        <figcaption class="slide__title">The Threadguy Stream</figcaption>
+        <img class="slide__img" src="assets/slides/slide-03.jpg" alt="The Threadguy Stream" width="2399" height="1349" loading="lazy" decoding="async" />
+      </figure>
+
+      <figure class="slide" id="slide-04">
+        <figcaption class="slide__title">Numbers + Audience</figcaption>
+        <img class="slide__img" src="assets/slides/slide-04.jpg" alt="Numbers + Audience" width="2399" height="1349" loading="lazy" decoding="async" />
+      </figure>
+
+      <figure class="slide" id="slide-05">
+        <figcaption class="slide__title">Topics and Guests</figcaption>
+        <img class="slide__img" src="assets/slides/slide-05.jpg" alt="Topics and Guests" width="2399" height="1349" loading="lazy" decoding="async" />
+      </figure>
+
+      <figure class="slide" id="slide-06">
+        <figcaption class="slide__title">The Distribution Engine</figcaption>
+        <img class="slide__img" src="assets/slides/slide-06.jpg" alt="The Distribution Engine" width="2399" height="1349" loading="lazy" decoding="async" />
+      </figure>
+
+      <figure class="slide" id="slide-07">
+        <figcaption class="slide__title">Partnership Philosophy</figcaption>
+        <img class="slide__img" src="assets/slides/slide-07.jpg" alt="Partnership Philosophy" width="2399" height="1349" loading="lazy" decoding="async" />
+      </figure>
+
+      <figure class="slide" id="slide-08">
+        <figcaption class="slide__title">Phantom: Exclusive Trading Partner</figcaption>
+        <img class="slide__img" src="assets/slides/slide-08.jpg" alt="Phantom: Exclusive Trading Partner" width="2399" height="1349" loading="lazy" decoding="async" />
+      </figure>
+
+      <figure class="slide" id="slide-09">
+        <figcaption class="slide__title">Category Exclusivity</figcaption>
+        <img class="slide__img" src="assets/slides/slide-09.jpg" alt="Category Exclusivity" width="2399" height="1349" loading="lazy" decoding="async" />
+      </figure>
+
+      <figure class="slide" id="slide-10">
+        <figcaption class="slide__title">Phantom Livestream Placements</figcaption>
+        <img class="slide__img" src="assets/slides/slide-10.jpg" alt="Phantom Livestream Placements" width="2399" height="1349" loading="lazy" decoding="async" />
+      </figure>
+
+      <figure class="slide" id="slide-11">
+        <figcaption class="slide__title">Phantom Livestream Activations</figcaption>
+        <img class="slide__img" src="assets/slides/slide-11.jpg" alt="Phantom Livestream Activations" width="2399" height="1349" loading="lazy" decoding="async" />
+      </figure>
+
+      <figure class="slide" id="slide-12">
+        <figcaption class="slide__title">Threadguy's X</figcaption>
+        <img class="slide__img" src="assets/slides/slide-12.jpg" alt="Threadguy's X" width="2399" height="1349" loading="lazy" decoding="async" />
+      </figure>
+
+      <figure class="slide" id="slide-13">
+        <figcaption class="slide__title">Off Stream Marketing Productions</figcaption>
+        <img class="slide__img" src="assets/slides/slide-13.jpg" alt="Off Stream Marketing Productions" width="2399" height="1349" loading="lazy" decoding="async" />
+      </figure>
+
+      <figure class="slide" id="slide-14">
+        <figcaption class="slide__title">We join your marketing team</figcaption>
+        <img class="slide__img" src="assets/slides/slide-14.jpg" alt="We join your marketing team" width="2399" height="1349" loading="lazy" decoding="async" />
+      </figure>
+
+      <figure class="slide" id="slide-15">
+        <figcaption class="slide__title">Full Cam overlay</figcaption>
+        <img class="slide__img" src="assets/slides/slide-15.jpg" alt="Full Cam: Neon Signs and Presented by Phantom overlay" width="2399" height="1349" loading="lazy" decoding="async" />
+      </figure>
+
+      <figure class="slide" id="slide-16">
+        <figcaption class="slide__title">Screenshare Cam overlay</figcaption>
+        <img class="slide__img" src="assets/slides/slide-16.jpg" alt="Screenshare Cam: Presented by Phantom overlay" width="2399" height="1349" loading="lazy" decoding="async" />
+      </figure>
+
+      <figure class="slide" id="slide-17">
+        <figcaption class="slide__title">Full Cam — Market Open</figcaption>
+        <img class="slide__img" src="assets/slides/slide-17.jpg" alt="Full Cam Market Open overlay" width="2399" height="1349" loading="lazy" decoding="async" />
+      </figure>
+
+      <figure class="slide" id="slide-18">
+        <figcaption class="slide__title">Guest Cam overlay</figcaption>
+        <img class="slide__img" src="assets/slides/slide-18.jpg" alt="Guest Cam: Presented by Phantom overlay" width="2399" height="1349" loading="lazy" decoding="async" />
+      </figure>
+
+      <figure class="slide" id="slide-19">
+        <figcaption class="slide__title">Stream Guest Announcement Poster</figcaption>
+        <img class="slide__img" src="assets/slides/slide-19.jpg" alt="Stream Guest Announcement Poster presented by Phantom" width="2399" height="1349" loading="lazy" decoding="async" />
+      </figure>
+
+      <figure class="slide" id="slide-20">
+        <figcaption class="slide__title">Thank You</figcaption>
+        <img class="slide__img" src="assets/slides/slide-20.jpg" alt="Thank You" width="2399" height="1349" loading="lazy" decoding="async" />
+      </figure>
+    </section>
+
+    <footer class="site-footer" aria-label="Counterparty">
+      <div class="site-footer__inner">
+        <img
+          class="site-footer__logo"
+          src="assets/counterparty.png"
+          alt="Counterparty"
+          width="2533"
+          height="660"
+          loading="lazy"
+          decoding="async"
+        />
+      </div>
+    </footer>
+  </main>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
